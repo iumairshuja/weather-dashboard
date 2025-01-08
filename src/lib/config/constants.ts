@@ -6,6 +6,6 @@ export const API_KEYS = {
 export const DEFAULT_CITY = 'Lahore';
 
 export const WEATHER_ENDPOINTS = {
-  WEATHERAPI_BASE: 'http://api.weatherapi.com/v1',
+  WEATHERAPI_BASE: 'https://api.weatherapi.com/v1',
   OPENWEATHER_BASE: 'https://api.openweathermap.org/data/2.5'
 };
