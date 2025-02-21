@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  weather-dashboard:
+    build: .
+    ports:
+      - "5173:5173"  # Maps host port 3000 to container port 5173
+    environment:
+      VITE_OPENWEATHER_KEY: ${VITE_OPENWEATHER_KEY}
+      VITE_WEATHERAPI_KEY: ${VITE_WEATHERAPI_KEY}
